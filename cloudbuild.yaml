@@ -18,4 +18,4 @@ steps: # Your build steps here
     args: ['build', '-t', 'gcr.io/$PROJECT_ID/my-image', '.']
 
 
-logging: CLOUD_LOGGING_ONLY / NONE
+logging: CLOUD_LOGGING_ONLY
