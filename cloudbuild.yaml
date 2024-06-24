@@ -17,4 +17,5 @@ steps: # Your build steps here
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/$PROJECT_ID/my-image', '.']
 
+
 logging: CLOUD_LOGGING_ONLY / NONE
