@@ -17,4 +17,4 @@ steps:
     args: [ 'test' ]
     env: [ 'GOPATH=/workspace' ]
 
-logging: CLOUD_LOGGING_ONLY
+logging: CLOUD_LOGGING_ONLY / NONE
