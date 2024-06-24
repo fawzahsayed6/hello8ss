@@ -16,3 +16,5 @@ steps:
   - name: 'gcr.io/cloud-builders/go'
     args: [ 'test' ]
     env: [ 'GOPATH=/workspace' ]
+
+logging: CLOUD_LOGGING_ONLY
